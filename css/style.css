@@ -20,6 +20,7 @@ h6 {
 
 .education-entry,
 .work-entry,
+.onlineClasses-entry,
 .project-entry {
   padding: 0 5%;
 }
@@ -65,7 +66,7 @@ h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #96051f;
   line-height: 16px;
   float: left;
 }
@@ -101,7 +102,7 @@ a {
 
 #skills-h3 {
   color: #f5ae23;
-  display: none;
+  display: block;
 }
 
 .orange {
@@ -162,6 +163,7 @@ img {
 
 span {
   padding: 5px;
+  max-width: 200px;
 }
 
 #lets-connect {
