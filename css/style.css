@@ -27,7 +27,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #96051f;
   line-height: 48px;
   display: inline;
 }
@@ -35,7 +35,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
+  color: #96051f;
   line-height: 29px;
   padding: 10px;
 }
@@ -66,7 +66,7 @@ h5 {
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #96051f;
+  color: #112f6b;
   line-height: 16px;
   float: left;
 }
@@ -74,7 +74,7 @@ h5 {
 .location-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #d6929b;
   line-height: 16px;
   float: right;
 
@@ -87,7 +87,7 @@ p {
 }
 
 a {
-  color: #1199c3;
+  color: #96051f;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -101,16 +101,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #d6929b;
   display: block;
 }
 
-.orange {
-  background-color: #f5ae23;
+.connect-Background {
+ background-color: #f3f3f3;
 }
 
-.orange-text {
-  color: #f5ae23;
+.glance-text {
+  color: #d6929b;
 }
 
 .white-text {
@@ -128,9 +128,17 @@ a {
   background-color: #4a4a4a;
 }
 
+.online-subheading {
+  color: #051842;
+}
+
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #051842;
+}
+
+.role {
+  color:#d6929b;
 }
 
 .flex-box {
@@ -140,6 +148,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+
 }
 
 .center-content {
@@ -170,6 +179,10 @@ span {
   text-align: center;
 }
 
+.footer-box {
+    background-color: #051842;
+
+ }
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
