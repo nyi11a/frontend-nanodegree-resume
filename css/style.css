@@ -14,6 +14,15 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #f7fcf9;
+}
+
+.container {
+  border-style: solid;
+  border-color:  #d6929b;
+}
+
 .clear-fix {
   overflow: auto;
 }
@@ -22,7 +31,7 @@ h6 {
 .work-entry,
 .onlineClasses-entry,
 .project-entry {
-  padding: 0 5%;
+  padding: 0.5%;
 }
 
 h1 {
@@ -31,6 +40,7 @@ h1 {
   line-height: 48px;
   display: inline;
 }
+
 
 h2 {
   font-weight: bold;
@@ -151,6 +161,17 @@ a {
 
 }
 
+
+
+.project-display {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
 .center-content {
   padding: 2.5% 5%;
 }
@@ -168,6 +189,7 @@ ul {
 
 img {
   padding: 10px;
+  max-width: 150%;
 }
 
 span {
@@ -183,6 +205,7 @@ span {
     background-color: #051842;
 
  }
+
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
@@ -217,7 +240,7 @@ span {
 
 #mapDiv {
   height: 400px;
-  width: 100%;
+
   padding-bottom: 5%;
 }
 
@@ -227,3 +250,9 @@ span {
     display: block;
   }
 }
+
+
+
+
+
+

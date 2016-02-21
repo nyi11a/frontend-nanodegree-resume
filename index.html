@@ -15,7 +15,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <title>Resume</title>
 
   <!-- Load the page styles. -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet">
+
 
   <!--
   jQuery is a common JavaScript library for reading and making changes to the
@@ -30,10 +32,12 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   the DOM. jQuery is fast and easy to use, but it doesn't do anything
   you can't accomplish with vanilla (regular) JavaScript.
   -->
-  <script src="js/jQuery.js"></script>
+  <script type="text/javascript" src="js/jQuery.js"></script>
 
   <!-- More on helper.js in the class -->
   <script src="js/helper.js"></script>
+
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
   <!--
   Uncomment the <script> tag below when you're ready to add an interactive
@@ -44,7 +48,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   <meta name="viewport" content="width=device-width">
 </head>
 <body>
-  <div id="main">
+  <div id="main" class="container">
     <!-- You'll be deleting this line in the course -->
 
     <!--
@@ -53,28 +57,45 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     resume below. You can pretty easily figure out what each section will
     display by looking at the id or at what's written between the <h2> tags.
     -->
-    <div id="header" class="center-content clear-fix">
+
+    <div id="header" class="center-content clear-fix row">
       <ul id="topContacts" class="flex-box"></ul>
     </div>
+
+
     <div style="clear: both;"></div>
-    <div id="workExperience" class="gray">
+    <div id="workExperience" class="row">
       <h2>Work Experience</h2>
     </div>
-    <div id="projects">
-      <h2>Projects</h2>
+
+
+    <div id="projects" class="gray row">
+      <div class="row">
+        <h2>Projects</h2>
+      </div>
     </div>
-    <div id="education" class="gray">
+
+
+
+    <div id="education" class=" row">
       <h2>Education</h2>
     </div>
-    <div id="mapDiv">
+
+
+    <div id="mapDiv" class="gray row">
       <h2>Where I've Lived and Worked</h2>
     </div>
-    <div id="lets-connect" class="dark-gray">
+
+
+    <div id="lets-connect" class="dark-gray row">
       <h2 class="connect-Background center-text">Let's Connect</h2>
         <ul id="footerContacts" class="flex-box footer-box">
       </ul>
     </div>
+
   </div>
+
+
 
   <!--
   The next line tells the browser where to download the JavaScript file you'll be
