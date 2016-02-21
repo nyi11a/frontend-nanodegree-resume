@@ -131,7 +131,7 @@ a {
 .gray {
   background-color: #f3f3f3;
   padding-bottom: 10px;
-  clear:both;
+  clear: both;
 }
 
 .dark-gray {
@@ -160,8 +160,6 @@ a {
   padding: 10px;
 
 }
-
-
 
 .project-display {
   display: -webkit-flex;
