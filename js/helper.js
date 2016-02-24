@@ -21,7 +21,7 @@ var HTMLemail = '<li class="project-display"><span class="glance-text">email</sp
 var HTMLtwitter = '<li class="project-display"><span class="glance-text">twitter</span><span class="white-text">%data%</span></li>';
 var HTMLgithub = '<li class="project-display"><span class="glance-text">github</span><span class="white-text">%data%</span></li>';
 var HTMLblog = '<li class="flex-item"><span class="glancetext">blog</span><span class="white-text">%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span class="glance-text">location</span><span class="white-text">%data%</span></li>';
+var HTMLlocation = '<li class="project-display"><span class="glance-text">location</span><span class="white-text">%data%</span></li>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
