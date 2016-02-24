@@ -1,3 +1,5 @@
+'use strict';
+
 var bio = {
     name: 'N\'Mah Yilla',
     role: ' Arabic, Higher Education and Technology Specialist',
